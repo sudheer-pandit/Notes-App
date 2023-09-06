@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-color: #1abc9c;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    
+     flex-wrap: wrap;
+     padding-bottom: 50px;
+   
+}
+#addBtn{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: rgba(44, 62, 80,1.0);
+    color: rgb(232, 226, 226);
+    padding: 10px;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+.note{
+    background-color: rgb(249, 244, 244);
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+   
+   
+   
+
+
+}
+.tool{
+    width: 100%;
+    height: 30px;
+  
+    background-color: rgba(44, 62, 80,1.0);
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+   
+}
+div i{
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.note textarea:focus{
+    border: 0;
+    outline: 0;
+
+}
